@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Placeholders](README.md)
+* [API Reference](README.md)
+* [Placeholders](<README (1).md>)
 * [Creating a Generator](creating-a-generator/README.md)
   * [Generator Settings](creating-a-generator/generator-settings/README.md)
     * [Holograms](creating-a-generator/generator-settings/holograms.md)
