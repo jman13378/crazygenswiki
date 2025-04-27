@@ -1,6 +1,11 @@
 # Table of contents
 
 * [API Reference](README.md)
+  * [Events](api-reference/events/README.md)
+    * [GeneratorEvent](api-reference/events/generator-event.md)
+    * [GeneratorGenerateEvent](api-reference/events/generate-event.md)
+    * [GeneratorPlaceEvent](api-reference/events/place-event.md)
+    * [GeneratorInteractEvent](api-reference/events/interact-event.md)
 * [Placeholders](<README (1).md>)
 * [Creating a Generator](creating-a-generator/README.md)
   * [Generator Settings](creating-a-generator/generator-settings/README.md)
