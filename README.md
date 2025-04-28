@@ -1,24 +1,31 @@
-# API Reference
+---
+description: Ultimate Minecraft Generator Plugin
+---
+
+# CrazyGenerators
 
 
 
-## Events
+Take your server economy and resource generation to the next level with CrazyGenerators!\
+This powerful, highly customizable plugin lets players place, and upgrade generators that automatically produce valuable resources over time. Whether you're building a skyblock empire, a factions base, or a custom survival world, CrazyGenerators brings endless gameplay possibilities.
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>Name: GeneratorEvent </td><td>Description: Anything to do with a generator.</td><td></td></tr><tr><td>Name: GeneratorGenerateEvent </td><td>Description: Whenever a generator generates an item.</td><td></td></tr><tr><td>Name: GeneratorPlaceEvent</td><td>Description: When a generator gets placed. (Player/Server/Command)</td><td></td></tr><tr><td>Name: GeneratorInteractEvent </td><td>Description: When a Player, se4rver, or command interacts with an item.</td><td></td></tr></tbody></table>
+**Features:**
 
+🌟 Custom Generators: Create generators for any block, item, or mob drop!
 
+⚡ Upgrades and Tiers: Players can level up generators for faster output or better rewards.
 
-### How to use the events
+🔧 Fully Configurable: Control generator speed, block types, costs, particle effects, and sounds.
 
-View the JavaDoc for more detailed information on the methods and implementation.
+🛡️ Permissions Support: Fine-tune access to different generators, upgrades, and features.
 
-```java
-public class MyEvent implements Listener {
-    @Override
-    public void onGeneratorEvent(GeneratorEvent event) {
-        Generator generator = event.getGenerator();
-        Player genOwner = generator.getOwner()
-        Player player = event.getPlayer();
-    }
-}
-```
+📈 Economy Integration: Connect to Vault and reward players with in-game currency, items, or experience.
+
+🌎 WorldGuard Compatibility: Protect areas and regulate where generators can be placed.
+
+🔥 Performance Optimized: Lightweight code ensures smooth performance on even the busiest servers.
+
+**Perfect for:**\
+Skyblock | Survival | Factions | Prison | Custom Minigames
+
+Give your players a new way to earn, build, and compete. Bring your server to life with CrazyGenerators today!

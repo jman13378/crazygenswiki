@@ -1,6 +1,7 @@
 # Table of contents
 
-* [API Reference](README.md)
+* [CrazyGenerators](README.md)
+* [API Reference](<README (2).md>)
   * [Events](api-reference/events/README.md)
     * [GeneratorEvent](api-reference/events/generator-event.md)
     * [GeneratorGenerateEvent](api-reference/events/generate-event.md)
